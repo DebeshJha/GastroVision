@@ -41,7 +41,7 @@ If you use this dataset in your research work, please cite the following paper:
 ```
 @inproceedings{ ,
   title={GastroVision: A Multi-class Endoscopy Image Dataset for Computer Aided Gastrointestinal Disease Detection},
-  author={Debesh Jha, Vanshali Sharma, Neethi Dasu, Nikhil Kumar Tomar, Steven Hicks, M.K. Bhuyan,
+  author={Debesh Jha*, Vanshali Sharma*, Neethi Dasu, Nikhil Kumar Tomar, Steven Hicks, M.K. Bhuyan,
 Pradip K. Das, Michael A. Riegler, P{\aa}l Halvorsen, Thomas de Lange, Ulas Bagci}
   booktitle={ICML Workshop},
   volume={},
