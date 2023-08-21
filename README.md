@@ -39,12 +39,12 @@ A detailed distribution of each class is represented in the graph below:
 Standard multi-class classification metrics, such as Matthews Correlation Coefficient (MCC), micro and macro averages of recall/sensitivity, precision, and F1-score, can be used to validate the performance using our dataset.
 
 ## Baseline results
-
-<img src="results.png">
 *Results for all classification experiments on the Gastrovision dataset.*
+<img src="results.png">
 
-<img src="results1.png">
 *Class-wise performance associated with the best outcome obtained using pre-trained DenseNet-121.*
+<img src="results1.png">
+
 
 
 <img src="conf.png">
