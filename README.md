@@ -46,16 +46,12 @@ Standard multi-class classification metrics, such as Matthews Correlation Coeffi
 <img src="results1.png">
 
 
-
 <img src="conf.png">
 *Confusion matrix for the best outcome obtained using pre-trained DenseNet-121.*
 
 
 <img src="gast_tsne4.png">
 *Two-dimensional t-SNE embedding for GastroVision. The pre-trained DenseNet-121 model, which is further trained on our training set, is used to extract features. Some sample images are shown with either a specific or a broader (due to multiple overlapping classes) categorization.*
-
-<img src="resolution.png">
-*Table 3. Class-wise performance associated with the best outcome obtained using pre-trained DenseNet-121*
 
 
 ## Cite
