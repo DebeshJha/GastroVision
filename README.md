@@ -67,4 +67,4 @@ Pradip K. Das, Michael A. Riegler, P{\aa}l Halvorsen, Thomas de Lange, Ulas Bagc
 ```
 
 ## Contact
-Please contact debesh.jha@northwestern.edu if you have questions about the dataset and our research activities. We always welcome collaboration and joint research!
+Please contact debesh.jha@northwestern.edu  & Vanshalisharma@iit.ac.in if you have questions about the dataset and our research activities. We always welcome collaboration and joint research!
