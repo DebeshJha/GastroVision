@@ -59,10 +59,9 @@ Standard multi-class classification metrics, such as Matthews Correlation Coeffi
 ## Cite
 If you use this dataset in your research work, please cite the following paper:
 ```
-@inproceedings{ ,
+@inproceedings{jha2023gastrovision,
   title={GastroVision: A Multi-class Endoscopy Image Dataset for Computer Aided Gastrointestinal Disease Detection},
-  author={Debesh Jha*, Vanshali Sharma*, Neethi Dasu, Nikhil Kumar Tomar, Steven Hicks, M.K. Bhuyan,
-Pradip K. Das, Michael A. Riegler, P{\aa}l Halvorsen, Thomas de Lange, Ulas Bagci}
+  author={Debesh Jha*, Vanshali Sharma*, Neethi Dasu, Nikhil Kumar Tomar, Steven Hicks, M.K. Bhuyan, Pradip K. Das, Michael A. Riegler, P{\aa}l Halvorsen, Thomas de Lange, Ulas Bagci}
   booktitle={ICML Workshop on Machine Learning for Multimodal Healthcare Data (ML4MHD 2023)},
   year={2023}
 }
