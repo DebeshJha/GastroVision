@@ -58,6 +58,7 @@ Standard multi-class classification metrics, such as Matthews Correlation Coeffi
 
 ## Cite
 If you use this dataset in your research work, please cite the following paper:
+
 ```
 @inproceedings{jha2023gastrovision,
   title={GastroVision: A Multi-class Endoscopy Image Dataset for Computer Aided Gastrointestinal Disease Detection},
