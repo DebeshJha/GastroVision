@@ -49,9 +49,9 @@ lr=args.lr
 train_root_dir=f"./GastroVision/train"
 val_root_dir=f"./GastroVision/val"
 test_root_dir=f"./GastroVision/test"
-model_path=r'./checkpoints'  # set path to the folder that will store model's checkpoints
+model_path=r'./checkpoints/'  # set path to the folder that will store model's checkpoints
 
-n_classes=23  # number of classes used for training
+n_classes=22  # number of classes used for training
 
 global val_f1_max
 
@@ -77,15 +77,15 @@ trans={
         transforms.RandomRotation(degrees=15),
         transforms.RandomHorizontalFlip(),
         transforms.ToTensor(),
-        transforms.Normalize([0.485, 0.456, 0.406],
-                             [0.229, 0.224, 0.225])  # ImageNet standards
+        transforms.Normalize([0.4762, 0.3054, 0.2368],
+                             [0.3345, 0.2407, 0.2164])  
     ]),
     # Validation does not use augmentation
     'valid':
     transforms.Compose([
         transforms.Resize((224,224)),
         transforms.ToTensor(),
-        transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
+        transforms.Normalize([0.4762, 0.3054, 0.2368], [0.3345, 0.2407, 0.2164])
     ]),
     
     # Test does not use augmentation
@@ -93,7 +93,7 @@ trans={
     transforms.Compose([
         transforms.Resize((224,224)),
         transforms.ToTensor(),
-        transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
+        transforms.Normalize([0.4762, 0.3054, 0.2368], [0.3345, 0.2407, 0.2164])
     ]),
 }	
 
