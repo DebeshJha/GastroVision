@@ -117,7 +117,7 @@ class train:
     def train_net(self):
         
         #Initialize model
-        model = torchvision.models.resnet50(weights=False).to(device)   # make weight=True if you want to download pre-trained weights 	        
+        model = torchvision.models.resnet50(weights=False).to(device)   # make weights=True if you want to download pre-trained weights 	        
         
         n_inputs = model.fc.in_features
         model.fc = nn.Sequential(
