@@ -49,9 +49,9 @@ lr=args.lr
 train_root_dir=f"./GastroVision/train"
 val_root_dir=f"./GastroVision/val"
 test_root_dir=f"./GastroVision/test"
-model_path=r'./checkpoints'  # set path to the folder that will store model's checkpoints
+model_path=r'./checkpoints/'  # set path to the folder that will store model's checkpoints
 
-n_classes=23  # number of classes used for training
+n_classes=22  # number of classes used for training
 
 global val_f1_max
 
