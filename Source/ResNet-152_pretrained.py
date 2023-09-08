@@ -117,7 +117,7 @@ class train:
     def train_net(self):
         
         #Initialize model
-        model = torchvision.models.resnet152(weights=False).to(device)   # make weight=True if you want to download pre-trained weights
+        model = torchvision.models.resnet152(weights=False).to(device)   # make weights=True if you want to download pre-trained weights
         
         
         model.load_state_dict(torch.load('./resnet152-394f9c45.pth',map_location='cuda'))   # provide a .pth path for already downloaded weights otherwise comment this line out 	        
