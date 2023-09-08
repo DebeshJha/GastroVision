@@ -49,9 +49,9 @@ lr=args.lr
 train_root_dir=f"./GastroVision/train"
 val_root_dir=f"./GastroVision/val"
 test_root_dir=f"./GastroVision/test"
-model_path=r'./checkpoints'  # set path to the folder that will store model's checkpoints
+model_path=r'./checkpoints/'  # set path to the folder that will store model's checkpoints
 
-n_classes=23  # number of classes used for training
+n_classes=22  # number of classes used for training
 
 global val_f1_max
 
@@ -117,10 +117,10 @@ class train:
     def train_net(self):
         
         #Initialize model
-        model = torchvision.models.densenet169(weights=False).to(device)   # make weight=True if you want to download pre-trained weights
+        model = torchvision.models.densenet169(weights=False).to(device)   # make weights=True if you want to download pre-trained weights
         
         
-        model.load_state_dict(torch.load('./densenet169.pth',map_location='cuda'))   # provide a .pth path for already downloaded weights otherwise comment this line out 	        
+        model.load_state_dict(torch.load('./densenet169.pth',map_location='cuda'))   # provide a .pth path for already downloaded weights; otherwise comment this line out 	        
         
         # Freeze model weights
         for param in model.parameters():
