@@ -3,7 +3,7 @@ This repository provides related links and codes for the GastroVision dataset, a
 
 The dataset can be downloaded using this link <https://osf.io/84e7f/>.
 
-<img src="gastrovision.png">
+<img src="gastrovision.jpeg">
 
 Alternatively, the dataset can also be downloaded using this link <https://drive.google.com/drive/folders/1T35gqO7jIKNxC-gVA2YVOMdsL7PSqeAa?usp=sharing>
 
