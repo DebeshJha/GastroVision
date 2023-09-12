@@ -29,33 +29,33 @@ In _model_filename.py_ (line numbers: 49-52):
 GastroVision, with two broad categories (upper GI and lower GI), covers 36 classes belonging to anatomical landmarks or pathological findings. Proper categorization of these classes can be visualized from the diagram given below.
 
 <img src="gastrovision5.png">
-*Figure 1: Classes of GI tracts provided in the dataset. A general division of  different findings in the upper and lower GI tract is presented.*
+Figure 1: Classes of GI tracts provided in the dataset. A general division of  different findings in the upper and lower GI tract is presented.
 
 A detailed distribution of each class is represented in the graph below:
 
 <img src="gast_icml_count.png">
-*Figure 2: The figure shows the number of images per class, excluding the normal class. Some classes have few samples, as it is challenging to obtain such samples in an endoscopic procedure.*
+Figure 2: The figure shows the number of images per class, excluding the normal class. Some classes have few samples, as it is challenging to obtain such samples in an endoscopic procedure.
 
 <img src="resolution.png">
-*Figure 3: Resolutions of the 8,000 images of GastroVision.*
+Figure 3: Resolutions of the 8,000 images of GastroVision.
 
 ## Evaluation Metrics
 Standard multi-class classification metrics, such as Matthews Correlation Coefficient (MCC), micro and macro averages of recall/sensitivity, precision, and F1-score, can be used to validate the performance using our dataset.
 
 ## Baseline results
-*Results for all classification experiments on the Gastrovision dataset.*
+Results for all classification experiments on the Gastrovision dataset.
 <img src="results.png">
 
-*Class-wise performance associated with the best outcome obtained using pre-trained DenseNet-121.*
+Class-wise performance associated with the best outcome obtained using pre-trained DenseNet-121.
 <img src="results1.png">
 
 
 <img src="conf.png">
-*Confusion matrix for the best outcome obtained using pre-trained DenseNet-121.*
+Confusion matrix for the best outcome obtained using pre-trained DenseNet-121.
 
 
 <img src="gast_tsne4.png">
-*Two-dimensional t-SNE embedding for GastroVision. The pre-trained DenseNet-121 model, which is further trained on our training set, is used to extract features. Some sample images are shown with either a specific or a broader (due to multiple overlapping classes) categorization.*
+Two-dimensional t-SNE embedding for GastroVision. The pre-trained DenseNet-121 model, which is further trained on our training set, is used to extract features. Some sample images are shown with either a specific or a broader (due to multiple overlapping classes) categorization.
 
 
 ## Cite
@@ -71,4 +71,4 @@ If you use this dataset in your research work, please cite the following paper:
 ```
 
 ## Contact
-Please contact debesh.jha@northwestern.edu  & Vanshalisharma@iit.ac.in if you have questions about the dataset and our research activities. We always welcome collaboration and joint research!
+Please contact debesh.jha@northwestern.edu, vanshalisharma@iitg.ac.in and ulas.bagci@northwestern.edu if you have questions about the dataset and our research activities. We always welcome collaboration and joint research!
