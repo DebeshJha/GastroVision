@@ -1,5 +1,5 @@
 # GastroVision
-This repository provides related links and codes for the GastroVision dataset, a multi-class endoscopy image dataset comprising the largest number of anatomical landmarks, pathological abnormalities, and normal findings in the gastrointestinal (GI) tract. A total of 36 such classes, with 6,169 images, are acquired from the upper and lower GI tracts.
+This repository provides related links and codes for the GastroVision dataset, a multi-class endoscopy image dataset comprising the largest number of anatomical landmarks, pathological abnormalities, and normal findings in the gastrointestinal (GI) tract. A total of 27 such classes, with 8,000 images, are acquired from the upper and lower GI tracts.
 
 The dataset can be downloaded using this link <https://osf.io/84e7f/>.
 
