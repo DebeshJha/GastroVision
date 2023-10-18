@@ -7,7 +7,7 @@ Alternatively, the dataset can also be downloaded using this link <https://drive
 
 <img src="gastrovision.jpeg">
 
-## GastroVision Dataset: Use Cases
+## GastroVision key use cases
 - **Medical Image Analysis**: Aid in diagnosing gastrointestinal conditions and understanding anatomical landmarks.
 - **Deep Learning Research**: Train models for classification tasks, especially in handling class imbalances.
 - **Rare Anomaly Detection**: Utilize AI to detect less frequent but clinically significant anomalies.
