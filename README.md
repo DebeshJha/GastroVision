@@ -7,6 +7,17 @@ Alternatively, the dataset can also be downloaded using this link <https://drive
 
 <img src="gastrovision.jpeg">
 
+## GastroVision Dataset: Use Cases
+- **Medical Image Analysis**: Aid in diagnosing gastrointestinal conditions and understanding anatomical landmarks.
+- **Deep Learning Research**: Train models for classification tasks, especially in handling class imbalances.
+- **Rare Anomaly Detection**: Utilize AI to detect less frequent but clinically significant anomalies.
+- **Benchmarking**: A standard for evaluating and comparing medical image analysis algorithms.
+- **Transfer Learning**: Act as a foundational dataset for pre-trained gastrointestinal tract disease detection models.
+
+## Note: 
+GastroVision provides labeled images, classified by medical experts, without ground truth or bounding box information.
+
+
 
 
 - The metadata for the dataset can be found in **GastroVision_metadata.csv**, which contains the filename, class, width, height, and size of images.  
