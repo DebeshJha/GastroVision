@@ -1,7 +1,7 @@
 # GastroVision
 This repository provides related links and codes for the GastroVision dataset, a multi-class endoscopy image dataset comprising the most significant anatomical landmarks, pathological abnormalities, and normal findings in the gastrointestinal (GI) tract. Twenty-seven classes, with 8,000 images, are acquired from the upper and lower GI tracts. The classes include **Accessory tools, Normal stomach, Duodenal bulb, Gastroesophageal junction, Normal z-line, Pylorus, Normal mucosa and vascular pattern (large bowel), Cecum, Appendiceal orifice, Ileocecal valve, Small bowl, Retroflex-rectum, Terminal ileum, Colon diverticula, Colorectal cancer, Resection margins, Dyed-lifted-polyp, Dyed-resection-margin**. The significant classes that might be important in clinical settings include:
 
-## Key Classes in GastroVision Dataset
+## Key Classes to explore in the GastroVision dataset
 - **Angiectasia**: Abnormal blood vessels causing recurrent GI bleeding.
 - **Barett’s Esophagus**: Precancerous esophagus lining changes.
 - **Blood in Lumen**: Signifier of GI bleeding.
