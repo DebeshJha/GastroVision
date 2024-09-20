@@ -40,7 +40,7 @@ GastroVision provides labeled images, classified by medical experts, without gro
 **Train and Test:**
 ```sh
 python3 model_filename.py -e(epochs) -b(batch size) -l(learning rate)
-Eg. python3 DenseNet121_pretrained.py -e50 -b32 -l0.0001  
+Eg. python3 DenseNet-121_pretrained.py -e50 -b32 -l0.0001  
 ```
 *model_filename.py* refers to "DenseNet-121_pretrained.py","DenseNet-169_pretrained.py", "EfficientNet-B0_pretrained.py", ResNet-50_pretrained.py","ResNet-50_endtoend.py" or "ResNet-152_pretrained.py" provided in the **Source** folder.
 
